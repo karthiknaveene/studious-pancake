@@ -24,10 +24,10 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "bug-bash-artifact-preprod-08",
-                    version: "1.0.8",
+                    name: "buils-artifact-asper-jenkins-07",
+                    version: "1.0.7",
                     type: "docker",
-                    url: "http://localhost:2000",
+                    url: "http://localhost:2001",
                     digest: "6f637064707039346163663237383938",
                     label: "preprod"
                 )
