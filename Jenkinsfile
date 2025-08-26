@@ -24,8 +24,8 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "bug-bash-artifact-preprod-01",
-                    version: "1.0.2",
+                    name: "bug-bash-artifact-preprod-02",
+                    version: "1.0.3",
                     type: "docker",
                     url: "http://localhost:2000",
                     digest: "6f637064707039346163663237383938",
