@@ -24,15 +24,16 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "bug-bash-artifact-preprod",
-                    version: "1.0.1",
+                    name: "test-preprod",
+                    version: "4.0.1",
                     type: "docker",
                     url: "http://localhost:2000",
                     digest: "6f637064707039346163663237383938",
-                    label: "preprod"
+                    label: "preprod-test"
                 )
             }
         }
+        
 
         stage('Test') {
             steps {
