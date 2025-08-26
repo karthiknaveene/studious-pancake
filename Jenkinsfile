@@ -18,6 +18,7 @@ pipeline {
                 }
             }
         }
+        
 
         stage('Registering build artifact') {
             steps {
